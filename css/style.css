@@ -1,0 +1,30 @@
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/marble.png);
+    font-size: 20px;
+}
+
+/* Nav Bar styling */
+.nav-link {
+    color: rgb(77,69,61)
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.github-icon, .linkedin-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.github-icon {
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+.linkedin-icon {
+    margin-top: 4px;
+    margin-left: 15px;
+}
