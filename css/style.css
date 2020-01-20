@@ -1,6 +1,6 @@
 /* Body Styling */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abel', sans-serif;
     background-image: url(../img/marble.png);
     font-size: 20px;
 }
@@ -27,4 +27,49 @@ body {
 .linkedin-icon {
     margin-top: 4px;
     margin-left: 15px;
+}
+
+/* Main page styling - index.html */
+.container {
+    margin-top: 80px;
+}
+
+.my-picture {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width:50%;
+    border-radius: 300px;
+    margin-bottom: 25px;
+    margin-top:10px;
+    border: 2px solid rgb(166,187,189);
+}
+
+.quick-facts-div, .about-div, .developer-work, .design-work {
+    background-color: rgb(210,206,201);
+    padding: 15px;
+    height: 410px;
+    border: 2px solid rgb(106,96,96);
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-para {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.current-roles-div {
+    font-size: 18px;
+}
+
+.btn-link {
+    color: rgb(106,96,96);
+}
+
+.btn-link:hover {
+    color: rgb(77,69,61);
+    font-weight: bold;
 }
