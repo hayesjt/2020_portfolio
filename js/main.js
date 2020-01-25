@@ -9,7 +9,7 @@
     }
   })
 
-  // Preloader
+  // PRELOAD THE PAGE
   $(window).on('load', function () {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
@@ -18,7 +18,7 @@
     }
   });
 
-  // Back to top button
+  // BACK TO TOP BTN
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -31,20 +31,20 @@
     return false;
   });
 
-	/*--/ Star ScrollTop /--*/
+	/*--/ START SCROLL TO TOP /--*/
 	$('.scrolltop-mf').on("click", function () {
 		$('html, body').animate({
 			scrollTop: 0
 		}, 1000);
 	});
 
-	/*--/ Star Counter /--*/
+	/*--/ START COUNTER /--*/
 	$('.counter').counterUp({
 		delay: 15,
 		time: 2000
 	});
 
-	/*--/ Star Scrolling nav /--*/
+	/*--/ SCROLLING NAV /--*/
 	$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 			var target = $(this.hash);
@@ -68,9 +68,9 @@
 		target: '#mainNav',
 		offset: navHeight
 	});
-	/*--/ End Scrolling nav /--*/
+	/*--/ END SCROLLING NAV /--*/
 
-	/*--/ Navbar Menu Reduce /--*/
+	/*--/ NAVBAR MENU REDUCE /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
 		var pixels = 50; 
@@ -89,7 +89,7 @@
 		}
 	});
 
-	/*--/ Star Typed /--*/
+	/*--/ START TRYPED EFFECT /--*/
 	if ($('.text-slider').length == 1) {
     var typed_strings = $('.text-slider-items').text();
 		var typed = new Typed('.text-slider', {
@@ -101,7 +101,7 @@
 		});
 	}
 
-	/*--/ Testimonials owl /--*/
+	/*--/ NEEDED FOR FUTURE DEV /--*/
 	$('#testimonial-mf').owlCarousel({
 		margin: 20,
 		autoplay: true,
