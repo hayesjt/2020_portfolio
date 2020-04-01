@@ -32,3 +32,5 @@
     - Owl Carousel
 
 # Preview GIF
+
+<img src='img/portfolio_gif.gif' />
