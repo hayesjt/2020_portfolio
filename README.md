@@ -9,7 +9,7 @@
     - 6 projects and their Github pages/live deployment links
     - Contact form that creates an email using your computer settings 
 
-    Check out my portfolio at https://haylee430.github.io/2020_portfolio/
+Check out my portfolio at [Haylee's Portfolio](https://haylee430.github.io/2020_portfolio/)
  
 # Future add's
  
